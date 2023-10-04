@@ -55,6 +55,27 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///home/rita/Documentos/projetos-trybe/csharp-027-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/GeoController.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 42,
+                  "endLine": 44,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///home/rita/Documentos/projetos-trybe/csharp-027-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
                 "region": {
                   "startLine": 16,
@@ -103,27 +124,6 @@
                   "startColumn": 54,
                   "endLine": 28,
                   "endColumn": 68
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/rita/Documentos/projetos-trybe/csharp-027-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/GeoController.cs",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 42,
-                  "endLine": 44,
-                  "endColumn": 61
                 }
               }
             }
